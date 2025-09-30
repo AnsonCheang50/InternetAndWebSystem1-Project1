@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Project Title</title>
+<title>Project</title>
 <link rel="stylesheet" href="../CSS/Projects.css">
 </head>
 <body>
-
+<!--the pop-up code comes from https://www.w3schools.com/howto/howto_js_popup.asp -->
 <h1>Projects</h1>
 <nav>
     <a href="Homepage.html">Home</a> |
@@ -64,7 +64,13 @@
             Not too much difficulties.
         </th>
         <th>
+            <div class="popup" onclick="myFunction()">
             <img src="../Pictures/Comp4-PS3.png" alt="Comp4-Assignment3" height="100px">
+            <span class="popuptext" id="myPopup">
+                <img src="../Pictures/Comp4-PS2.png" alt="Comp4-Assignment2" height="100px">
+                <img src="../Pictures/Comp4-PS1.png" alt="Comp4-Assignment1" height="100px">
+            </span>
+            </div>
         </th>
         <th>
             Completed
@@ -246,5 +252,6 @@
     </tr>
 </table>
 
+<script src="../javascript/projects.js"></script>
 </body>
 </html>
