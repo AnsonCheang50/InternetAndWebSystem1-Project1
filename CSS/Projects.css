@@ -13,3 +13,31 @@ table, th, tr
     border: 1px solid black;
     text-align: center;
 }
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/*The css code from the pop-up
+comes from https://www.w3schools.com/howto/howto_js_popup.asp 
+*/
+
+.popup .popuptext {
+  visibility: hidden;
+  background-color: #555;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}

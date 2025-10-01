@@ -1,2 +1,2 @@
 # InternetAndWebSystem1-Project1
-Github Pages are not set up yet
+Website Page: https://ansoncheang50.github.io/InternetAndWebSystem1-Project1/HTML/Homepage.html
